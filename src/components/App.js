@@ -1,12 +1,15 @@
 import { CssBaseline } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
-import React from 'react';
+import React, { useRef } from 'react';
+import useAlan from './Alan';
 
 import { Actors, Movies, MovieInforamtion, NavBar, Profile } from '.';
 import useStyles from './styles';
 
 const App = () => {
   const classes = useStyles();
+  const alanBtnContainer = useRef();
+  useAlan();
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -23,6 +26,7 @@ const App = () => {
         </Routes>
 
       </main>
+      <div ref={alanBtnContainer} />
     </div>
   );
 };
