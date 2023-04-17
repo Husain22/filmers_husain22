@@ -2,6 +2,8 @@
 
 filmeres is the app where all movies lovers will like, this app allows them to find their favorite movies, see popular and upcomoing movies and in addition to see information about each movie actors.
 
+Live Version: [View](https://filmers-hk22.netlify.app/)
+
 ## Getting Started 
 to use the app follow these steps
 
